@@ -1,0 +1,47 @@
+.c-page-nav {
+  margin: 0;
+  padding:0;
+  display: none;
+
+  &--with-numbers {
+    counter-reset: li;
+    max-width: 355px;
+
+    li {
+      position: relative;
+
+      &:not(:first-child) {
+        &:before {
+          counter-increment: li;
+          content: counter(li, decimal-leading-zero)'.  ';
+        }
+      }
+
+    }
+  }
+
+  @media #{$medium} {
+    display: block;
+  }
+}
+
+.c-page-nav__link {
+  padding: 0;
+  margin: 0;
+  color: $grey;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: .4rem;
+  }
+
+  &.is-active {
+    color: $orange;
+    font-weight: 700;
+  }
+
+  &--separator {
+    padding-bottom: .4rem;
+    border-bottom: 1px solid $grey;
+  }
+}

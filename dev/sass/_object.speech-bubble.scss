@@ -1,0 +1,90 @@
+.o-speech-bubble-grouping {
+  margin-bottom: 3.75rem;
+}
+
+.o-speech-bubble-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+
+  &--constrained {
+    justify-content: baseline;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 2.25rem;
+  }
+}
+
+.o-speech-bubble {
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 1.75rem 7.5% 1rem;
+  font: 1.3125rem/1.425rem $siteFont;
+  flex: 1;
+
+  &--left {
+    border-bottom-left-radius: 0;
+    margin-left: .75rem;
+    margin-right: calc(.75rem + 32px);
+  }
+
+  &--right {
+    border-bottom-right-radius: 0;
+    margin-right: .75rem;
+    margin-left: calc(.75rem + 32px);
+  }
+
+  &--small {
+    padding: 1rem 5% .9125rem;
+  }
+
+  &--blue {
+    background: linear-gradient(#66a6da, #316bb3);
+    color: #fff;
+  }
+
+  &--light {
+    background: rgba(255,255,255,.7);
+    color: #346094;
+  }
+
+  &--white {
+    background: #fff;
+    color: #000;
+  }
+
+  &--hidden {
+    opacity: 0;
+  }
+}
+
+.o-speech-bubble__attribution {
+  font-size: .875rem;
+  line-height: 1rem;
+  padding-top: .75rem;
+  color: #6aaadd;
+}
+
+.o-speech-bubble-initials {
+  border-radius: 50%;
+  background: #fff;
+  height: 32px;
+  width: 32px;
+  font: 800 1.125rem/2rem $siteFont;
+  text-align: center;
+  color: #6aaadd;
+
+  &--hidden {
+    opacity: 0;
+  }
+
+  &--orange {
+    color: $orange;
+  }
+}
+
+.o-speech-bubble--btn {
+  cursor: pointer;
+}

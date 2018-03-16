@@ -1,0 +1,15 @@
+.c-brand-asset {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 4rem;
+  width: 245px;
+  height: 245px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 20px 2px rgba(0, 0, 0, 0.3);
+
+  img {
+    display: inline-block;
+  }
+}

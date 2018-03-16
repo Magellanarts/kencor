@@ -1,0 +1,38 @@
+.c-metric-graphic {
+  color: #fff;
+  margin: 0 7%;
+}
+
+.c-metric-graphic__header {
+  border-bottom: 1px solid rgba(255,255,255,.7);
+  padding-bottom: .5rem;
+}
+
+.c-metric-graphic__main {
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.c-metric-graphic__footer {
+  border-top: 1px solid #fff;
+  padding-top: .8125rem;
+  font: 1.75rem/1.8125rem $siteFont;
+}
+
+.c-metric-graphic__number {
+  color: #231f20;
+  font: 14rem/14rem $sixCaps;
+  padding-bottom: .5rem;
+  position: absolute;
+  top: 0;
+
+  @media #{$medium} {
+    font: 21rem/21rem $sixCaps;
+  }
+
+
+  &--placeholder {
+    position: relative;
+    visibility: hidden;
+  }
+}

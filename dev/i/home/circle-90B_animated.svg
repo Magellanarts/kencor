@@ -1,0 +1,15 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 440.6 440.6" style="" xml:space="preserve" class="">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:5.4271;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:41;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="thin_line">
+	<path class="c-circle-fill__one PacGpOtk_0" d="M20.5,220.3A199.8,199.8 0,1,1 420.1,220.3A199.8,199.8 0,1,1 20.5,220.3"></path>
+</g>
+<g id="thick_line">
+	<path class="c-circle-fill__two PacGpOtk_1" d="M392.3,118.5c17.7,29.8,27.8,64.6,27.8,101.8c0,110.4-89.5,199.8-199.8,199.8S20.5,330.6,20.5,220.3
+		S109.9,20.5,220.3,20.5"></path>
+</g>
+<style>.PacGpOtk_0{stroke-dasharray:1256 1258;stroke-dashoffset:1257;}.start .PacGpOtk_0{animation:PacGpOtk_draw 2000ms linear 0ms forwards;}.PacGpOtk_1{stroke-dasharray:1049 1051;stroke-dashoffset:1050;}.start .PacGpOtk_1{animation:PacGpOtk_draw 2000ms linear 1000ms forwards;}@keyframes PacGpOtk_draw{100%{stroke-dashoffset:0;}}@keyframes PacGpOtk_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

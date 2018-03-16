@@ -1,0 +1,116 @@
+/*
+.l-section--newsroom {
+  transition: opacity $transition-in;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+
+
+  &.is-active {
+    z-index: 5;
+    visibility: visible;
+    opacity: 1;
+    //height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8rem 10% 3rem;
+    overflow: auto;
+    transition: opacity $transition-out;
+    height: 70vh;
+  }
+
+
+  @media #{$medium} {
+    visibility: visible;
+    opacity: 1;
+    padding: 12rem 17% 4rem;
+    height: 100%;
+    display: table;
+    min-height: 100vh;
+
+
+    &.is-active {
+      height:  100vh;
+      min-height: 100vh;
+      padding: 12rem 17% 4rem;
+    }
+
+    &[data-section="sami-efficiencies"],
+    &[data-section="meet-sami"] {
+      padding: 12rem 22% 4rem;
+    }
+  }
+}
+ */
+
+
+.l-section--newsroom {
+  transition: opacity $transition-in;
+  z-index: 1;
+  padding: 8rem 10% 3rem;
+  box-sizing: border-box;
+
+  width: 100%;
+
+
+
+  &.is-active {
+    z-index: 5;
+    visibility: visible;
+    opacity: 1;
+    //height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+    overflow: auto;
+
+  }
+
+
+  @media #{$medium} {
+    visibility: visible;
+    opacity: 1;
+    padding: 12rem 17% 4rem;
+    height: 100%;
+    display: table;
+    min-height: 100vh;
+
+
+    &.is-active {
+      height:  100vh;
+      min-height: 100vh;
+      padding: 12rem 17% 4rem;
+    }
+
+    &[data-section="sami-efficiencies"],
+    &[data-section="meet-sami"] {
+      padding: 12rem 17% 4rem;
+    }
+  }
+}
+
+.l-section--contact {
+  padding: 6rem 10% 3rem;
+  @media #{$medium} {
+    padding: 12rem 18% 3rem;
+  }
+}
+
+.l-section--leadership {
+  padding: 3.5rem 10%;
+  @media #{$medium} {
+    padding: 12rem 18% 4.5rem;
+  }
+}
+
+.l-section--advisors {
+  padding: 3.52rem 10%;
+  @media #{$medium} {
+    padding: 2rem 18% 4.5rem;
+  }
+}

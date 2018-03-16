@@ -1,0 +1,23 @@
+.c-team-member {
+  color: #000;
+}
+
+.c-team-member__name {
+  font:  700 .9375rem/1.25rem $siteFont;
+  margin-bottom: .125rem;
+  padding-top: .5rem;
+}
+
+.c-team-member__title {
+  font: .75rem/1rem $siteFont;
+}
+
+.c-team-member__image-container {
+  display: block;
+  position: relative;
+}
+
+.c-team-member__image {
+  position: relative;
+  z-index: 4;
+}

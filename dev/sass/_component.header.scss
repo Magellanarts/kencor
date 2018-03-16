@@ -1,0 +1,41 @@
+.c-site-header {
+  position: fixed;
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+  padding-right: 0;
+}
+
+.c-site-logo {
+  margin-left:7.5%;
+  width: 230px;
+  display: block;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.headroom {
+  transition: .2s ease-in;
+
+  &--pinned {
+    transform: translateY(0%);
+
+    &:not(.headroom--top) {
+    //  background: rgba(255,255,255,.7);
+    }
+  }
+
+  &--unpinned {
+    transform: translateY(-100%);
+  }
+}

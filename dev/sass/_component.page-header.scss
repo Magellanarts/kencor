@@ -1,0 +1,12 @@
+.c-page-header {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.c-page-header__subheading {
+  font-weight: 300;
+  position: absolute;
+  top: -1.75rem;
+  color: $grey--dark;
+  padding-left: .25rem;
+}

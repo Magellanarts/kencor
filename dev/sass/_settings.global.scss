@@ -1,0 +1,19 @@
+//fonts
+$avenir: 'Avenir Book';
+$avenir--heavy: 'Avenir Heavy';
+$avenir--light: 'Avenir Light';
+$avenir--medium: 'Avenir Medium';
+$siteFont: 'Nunito Sans', sans-serif;
+$sixCaps: 'Six Caps', sans-serif;
+
+//Media Queries
+$small:  "screen and (min-width : 576px)";
+$medium:  "screen and (min-width : 768px)";
+$mediumMinHeight: "screen and (min-width : 768px) and (min-height: 685px)";
+$large: "screen and (min-width : 992px)";
+$xl: "screen and (min-width : 1200px)";
+
+//Misc
+$border-radius: 3px;
+$transition-in: .3s ease-in;
+$transition-out: .3s ease-out;

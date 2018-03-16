@@ -1,0 +1,112 @@
+.o-std-form-container {
+  position: relative;
+}
+
+.o-std-form {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  opacity: 1;
+  visibility: visible;
+  transition: $transition-in;
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b2b2b2;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #b2b2b2;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #b2b2b2;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #b2b2b2;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid rgba(#d0d0d0, .7);
+    padding: 0 10px;
+    font: 15px/28px $siteFont;
+    margin-bottom: 13px;
+    width: 100%;
+    -webkit-appearance: none;
+
+    &.error {
+      border-color: #cc0000;
+    }
+  }
+  
+  button[type="submit"] {
+    background-image: linear-gradient(#66a6da, #326cb4);
+    border: none;
+    color: #fff;
+    font: 700 15px/35px $siteFont;
+    text-align: center;
+    padding: 0 30px;
+    outline: none !important;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+  }
+
+  @media #{$small} {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+      width: 48%;
+    }
+  }
+
+  @media #{$large} {
+    input[name="first-name"],
+    input[name="last-name"]{
+      width: 48%;
+    }
+
+    input[name="email"] {
+      width: 65%;
+    }
+
+    input[name="telephone"] {
+      width: 31%;
+    }
+
+    input[name="organization"] {
+      width: 74%;
+    }
+  }
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: $transition-out;
+  }
+
+}
+
+.o-std-form__footer {
+  padding-top: 8px;
+  width: 100%;
+}
+
+.o-std-form-confirmation {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: $transition-in;
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    z-index: 4;
+    transition: $transition-out;
+  }
+}

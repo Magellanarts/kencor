@@ -1,0 +1,82 @@
+.c-clock {
+  position: relative;
+  width: auto;
+  display: inline-block;
+}
+
+
+.c-clock__bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255,255,255,.3);
+}
+
+.c-clock__dot {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  right: 0;
+  margin:  auto;
+  width: 5%;
+  height: 5%;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.c-clock__hour-hand,
+.c-clock__minute-hand {
+  position: absolute;
+}
+
+
+.c-clock__hour-hand-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform:rotate(0);
+
+  &.rotate-me {
+    animation: rotateHour 1.25s linear forwards;
+  }
+}
+
+.c-clock__hour-hand {
+  width: 12%;
+  top: 19%;
+  left: 1%;
+  right: 0;
+  margin: auto;
+}
+
+.c-clock__minute-hand-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 2%;
+  left: 0;
+  transform:rotate(70deg);
+
+
+  &.rotate-me {
+    animation: rotateMinutes 1.25s linear forwards;
+  }
+}
+
+.c-clock__minute-hand {
+  width: 46%;
+  top: 30%;
+  left: 5%;
+}
+
+@keyframes rotateMinutes{
+  0%{transform:rotate(70deg)}
+  100%{transform:rotate(430deg)}
+}
+
+@keyframes rotateHour{
+  0%{transform:rotate(0)}
+  100%{transform:rotate(21deg)}
+}

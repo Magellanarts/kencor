@@ -1,0 +1,56 @@
+.c-circle-fill {
+  position: relative;
+}
+
+.c-circle-fill__graphic {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.c-circle-fill__number {
+  font: 9rem/9rem $sixCaps;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+
+  @media #{$medium} {
+    font: 10rem/10rem $sixCaps;
+  }
+
+  @media #{$large} {
+    font: 12rem/12rem $sixCaps;
+  }
+
+
+  @media #{$xl} {
+    font: 13.75rem/13.75rem $sixCaps;
+  }
+}
+
+
+.c-circle-fill__one{fill:none;stroke:#FFFFFF;stroke-width:5.4271;stroke-miterlimit:10;}
+.c-circle-fill__two{fill:none;stroke:#FFFFFF;stroke-width:41;stroke-linecap:round;stroke-miterlimit:10;}
+.qZnIchih_0{stroke-dasharray:1256 1258;stroke-dashoffset:1257;}
+//.start .qZnIchih_0{animation:qZnIchih_draw 1000ms linear 0ms forwards;}
+.qZnIchih_0{animation:qZnIchih_draw 1000ms linear 0ms forwards;}
+.qZnIchih_1{stroke-dasharray:1176 1178;stroke-dashoffset:1177;}
+.start .qZnIchih_1{animation:qZnIchih_draw 700ms linear 500ms forwards;}
+@keyframes qZnIchih_draw{100%{stroke-dashoffset:0;}}
+@keyframes qZnIchih_fade{0%{stroke-opacity:1;}92.98245614035088%{stroke-opacity:1;}100%{stroke-opacity:0;}}
+
+
+
+.PacGpOtk_0{stroke-dasharray:1256 1258;stroke-dashoffset:1257;}
+.PacGpOtk_0{animation:PacGpOtk_draw 1000ms linear 0ms forwards;}
+.PacGpOtk_1{stroke-dasharray:1049 1051;stroke-dashoffset:1050;}
+.start .PacGpOtk_1{animation:PacGpOtk_draw 700ms linear 500ms forwards;}
+@keyframes PacGpOtk_draw{100%{stroke-dashoffset:0;}}
+@keyframes PacGpOtk_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}

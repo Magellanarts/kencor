@@ -1,0 +1,26 @@
+.c-thinking-bubble {
+  display: inline-block;
+  position: absolute;
+  left: 32px;
+  bottom: 0;
+}
+
+.c-thinking-bubble__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0;
+
+  &:nth-child(1) {
+    background: #e5e5e5;
+  }
+
+  &:nth-child(2) {
+    background: #cccccc;
+  }
+
+  &:nth-child(3) {
+    background: #b2b2b2;
+  }
+}

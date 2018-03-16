@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+site/
+node_modules/
+yarn.lock
+.sass-cache/
+site.zip
+wp/
+dev copy/

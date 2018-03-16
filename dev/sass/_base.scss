@@ -1,0 +1,75 @@
+html {
+  font-family: $siteFont;
+  font-size: 14px;
+
+  @media #{$small} {
+    font-size: 15px;
+  }
+
+  @media #{$large} {
+    font-size: 16px;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: $siteFont;
+}
+
+html,
+body {
+  overflow: auto !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.875rem;
+}
+
+h2 {
+  @extend .u-med-text;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: .875rem;
+  margin-bottom: 2.25rem;
+}
+
+h5 {
+  font-size: .875rem;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: .625rem;
+}

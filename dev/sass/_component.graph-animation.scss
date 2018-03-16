@@ -1,0 +1,114 @@
+.c-graph-animation {
+  position: relative;
+}
+
+.c-graph-animation__dark-line {
+  position: absolute;
+  top: 32%;
+  width: 80%;
+  left: 13%;
+}
+
+.c-graph-animation__light-line {
+  position: absolute;
+  top: 62%;
+  width: 80%;
+  left: 13%;
+}
+
+.c-graph-animation__dark-line__number,
+.c-graph-animation__light-line__number {
+  position: absolute;
+  left: 10%;
+  width: 7%;
+  opacity: 0;
+
+  &.show-me {
+    opacity: 1;
+  }
+}
+
+.c-graph-animation__dark-line__number {
+  top: 34%;
+}
+
+.c-graph-animation__light-line__number {
+  top: 56.5%;
+}
+
+.c-graph-animation__light-line__dot,
+.c-graph-animation__dark-line__dot {
+  position: absolute;
+  width: 3%;
+  opacity: 0;
+
+  &.show-me {
+    opacity: 1;
+  }
+}
+
+
+.c-graph-animation__dark-line__dot {
+  &--1 {
+    left: 24.5%;
+    top: 37.4%
+  }
+
+  &--2 {
+    left: 38%;
+    top: 29.5%
+  }
+
+  &--3 {
+    left: 51%;
+    top: 39%;
+  }
+
+  &--4 {
+    left: 63%;
+    top: 35.4%;
+  }
+
+  &--5 {
+    left: 77%;
+    top: 39%;
+  }
+
+  &--6 {
+    left: 91%;
+    top: 38.8%;
+  }
+}
+
+
+.c-graph-animation__light-line__dot {
+  &--1 {
+    left: 24.5%;
+    top: 59.7%;
+  }
+
+  &--2 {
+    left: 38%;
+    top: 59.7%;
+  }
+
+  &--3 {
+    left: 51%;
+    top: 61.7%;
+  }
+
+  &--4 {
+    left: 63%;
+    top: 61.5%;
+  }
+
+  &--5 {
+    left: 77%;
+    top: 61.3%;
+  }
+
+  &--6 {
+    left: 91%;
+    top: 60.9%;
+  }
+}

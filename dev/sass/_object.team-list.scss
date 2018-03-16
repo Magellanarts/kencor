@@ -1,0 +1,26 @@
+.o-team-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.o-team-list__member {
+  width: 44%;
+  margin-bottom: 4%;
+
+
+  @media #{$small} {
+    width: 28%;
+    margin-bottom: 5.333333%;
+  }
+
+  @media #{$medium} {
+    width: 44%;
+    margin-bottom: 4%;
+  }
+
+  @media #{$large} {
+    width: 28%;
+    margin-bottom: 5.333333%;
+  }
+}

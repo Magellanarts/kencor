@@ -1,0 +1,17 @@
+.c-hiw-step-graphic {
+  display: block;
+  margin-bottom: 3rem;
+  max-width: 100%;
+
+  &--shadow--1 {
+    box-shadow: 0 0 7px 3px rgba(#4a5f73, .5);
+  }
+
+  &--shadow--2 {
+    box-shadow: 0 0 7px 3px rgba(#19365a, .5);
+  }
+
+  &--shadow--3 {
+    box-shadow: 0 0 7px 3px rgba(#bf9b00, .5);
+  }
+}
