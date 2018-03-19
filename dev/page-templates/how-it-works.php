@@ -124,20 +124,31 @@ $detect = new Mobile_Detect;
 
         <!--img class="c-hiw-step-graphic" src="<?php echo get_template_directory_uri(); ?>/i/hiw/Step4_FPO.png" -->
 
-        <div class="c-hiw-step-graphic c-phone-animation-container js-phone-animation" data-size="small">
-          <img class="c-phone-animation-container__placeholder" src="<?php echo get_template_directory_uri(); ?>/i/hiw/Step4_FPO.png" >
-          <img class="c-phone-animation__phone js-animation__phone animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_phone.svg">
-          <img class="c-phone-animation__people js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_people.svg">
+        <div class="c-hiw-step-graphic c-connected-animation-container js-phone-animation" data-size="small">
 
-          <div class="c-phone-dotted-lines">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-            <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-          </div>
 
+          <img class="c-connected-animation-container__placeholder" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/3way_line-outline.svg" >
+
+
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 179" style="" xml:space="preserve" class="c-connected-animation__lines-container js-connected-animation__lines-container" data-size="small">
+<title>3way_line</title>
+<path class="c-connected-animation__lines MzAuhgfe_0" d="M178.9,0.1L178.9,140.6"></path>
+<path class="c-connected-animation__lines MzAuhgfe_1" d="M180.4,139.5L0.7,139.5"></path>
+<path class="c-connected-animation__lines MzAuhgfe_2" d="M2.3,138.2L2.3,171.7"></path>
+<path class="c-connected-animation__lines MzAuhgfe_3" d="M178.9,140.6L178.9,175"></path>
+<path class="c-connected-animation__lines MzAuhgfe_4" d="M179.6,139.4L359.2,139.4"></path>
+<path class="c-connected-animation__lines MzAuhgfe_5" d="M358.6,137.9L358.6,171.4"></path>
+</svg>
+
+
+          <img class="c-connected-animation__phone js-animation__phone animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/phone.svg">
+
+
+          <img class="c-connected-animation__people c-connected-animation__people--1 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
+
+          <img class="c-connected-animation__people c-connected-animation__people--2 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
+
+          <img class="c-connected-animation__people c-connected-animation__people--3 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
         </div>
 
         <div class="u-med-text">
@@ -747,20 +758,32 @@ $detect = new Mobile_Detect;
       <div class="l-content-container__block l-content-container__block--no-padding">
         <div class="l-section--newsroom u-gradient--10 js-toggle-section" data-section="sami-connected">
           <div class=" u-white-text">
-            <div class="c-hiw-step-graphic c-phone-animation-container js-phone-animation" data-size="big">
-              <img class="c-phone-animation-container__placeholder" src="<?php echo get_template_directory_uri(); ?>/i/hiw/Step4_FPO.png" >
-              <img class="c-phone-animation__phone js-animation__phone animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_phone.svg">
-              <img class="c-phone-animation__people js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_people.svg">
 
-              <div class="c-phone-dotted-lines">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-                <img class="c-phone-dotted-line js-phone-dotted-line animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/step4/Kencor_HowItWorks_step4_dot.svg">
-              </div>
+            <div class="c-hiw-step-graphic c-connected-animation-container js-phone-animation" data-size="big">
 
+
+              <img class="c-connected-animation-container__placeholder" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/3way_line-outline.svg" >
+
+
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 179" style="" xml:space="preserve" class="c-connected-animation__lines-container js-connected-animation__lines-container" data-size="big">
+<title>3way_line</title>
+<path class="c-connected-animation__lines MzAuhgfe_0" d="M178.9,0.1L178.9,140.6"></path>
+<path class="c-connected-animation__lines MzAuhgfe_1" d="M180.4,139.5L0.7,139.5"></path>
+<path class="c-connected-animation__lines MzAuhgfe_2" d="M2.3,138.2L2.3,171.7"></path>
+<path class="c-connected-animation__lines MzAuhgfe_3" d="M178.9,140.6L178.9,175"></path>
+<path class="c-connected-animation__lines MzAuhgfe_4" d="M179.6,139.4L359.2,139.4"></path>
+<path class="c-connected-animation__lines MzAuhgfe_5" d="M358.6,137.9L358.6,171.4"></path>
+</svg>
+
+
+              <img class="c-connected-animation__phone js-animation__phone animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/phone.svg">
+
+
+              <img class="c-connected-animation__people c-connected-animation__people--1 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
+
+              <img class="c-connected-animation__people c-connected-animation__people--2 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
+
+              <img class="c-connected-animation__people c-connected-animation__people--3 js-animation__people animated" src="<?php echo get_template_directory_uri(); ?>/i/hiw/animations/connected/person_icon.svg">
             </div>
 
           </div>
@@ -771,6 +794,7 @@ $detect = new Mobile_Detect;
       </div>
     </section>
   </div>
+
 
   <div class="section">
     <section class="l-content-container">

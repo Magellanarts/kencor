@@ -15,6 +15,12 @@
   &:not(:last-child) {
     margin-bottom: 2.25rem;
   }
+
+  @media #{$large} {
+    &--yes-no {
+      justify-content: flex-end;
+    }
+  }
 }
 
 .o-speech-bubble {
@@ -58,6 +64,20 @@
   &--hidden {
     opacity: 0;
   }
+
+  @media #{$large} {
+    &--demo {
+      flex: none;
+      &-1 {
+        width: 325px;
+      }
+
+      &-2 {
+        width: 274px;
+      }
+    }
+  }
+
 }
 
 .o-speech-bubble__attribution {
@@ -87,4 +107,7 @@
 
 .o-speech-bubble--btn {
   cursor: pointer;
+  @media #{$large} {
+    flex: none;
+  }
 }

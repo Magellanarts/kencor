@@ -352,6 +352,32 @@ function animateGraph(whichGraph) {
 
 function animatePhone(whichPhone) {
   let phone =  doc.querySelector(whichPhone + ' .js-animation__phone');
+  let people = doc.querySelectorAll(whichPhone + ' .js-animation__people');
+  let lines = doc.querySelector(whichPhone + ' .js-connected-animation__lines-container');
+
+  phone.classList.add('bounceInUp', 'show-me');
+
+  // delay and then show people
+  setTimeout(function () {
+    lines.classList.add('start');
+  }, 800);
+
+  //pop in people
+  setTimeout(function () {
+    people[0].classList.add('bounceIn', 'show-me');
+  }, 2000);
+
+  setTimeout(function () {
+    people[1].classList.add('bounceIn', 'show-me');
+  }, 2220);
+
+  setTimeout(function () {
+    people[2].classList.add('bounceIn', 'show-me');
+  }, 2850);
+}
+
+function animatePhoneOLD(whichPhone) {
+  let phone =  doc.querySelector(whichPhone + ' .js-animation__phone');
   let people = doc.querySelector(whichPhone + ' .js-animation__people');
   let dottedLines = doc.querySelectorAll(whichPhone + ' .js-phone-dotted-line');
   let dotCounter = 0;

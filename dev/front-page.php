@@ -589,7 +589,7 @@ $detect = new Mobile_Detect;
                 <div class="c-thinking-bubble__dot js-thinking-bubble__dot animated"></div>
               </div>
 
-              <div class="o-speech-bubble o-speech-bubble--small o-speech-bubble--left o-speech-bubble--white o-speech-bubble--hidden js-demo-bubble js-demo-bubble--1 animated" data-size="big">
+              <div class="o-speech-bubble o-speech-bubble--demo o-speech-bubble--demo-1 o-speech-bubble--small o-speech-bubble--left o-speech-bubble--white o-speech-bubble--hidden js-demo-bubble js-demo-bubble--1 animated" data-size="big">
                 <p>Hi, I'm SAMi, your AI assisted care provider.<br>Let's get started!</p>
               </div>
             </div>
@@ -603,7 +603,7 @@ $detect = new Mobile_Detect;
                 <div class="c-thinking-bubble__dot js-thinking-bubble__dot animated"></div>
               </div>
 
-              <div class="o-speech-bubble o-speech-bubble--small o-speech-bubble--left o-speech-bubble--white o-speech-bubble--hidden js-demo-bubble--2 animated" data-size="big">
+              <div class="o-speech-bubble o-speech-bubble--demo o-speech-bubble--demo-2 o-speech-bubble--small o-speech-bubble--left o-speech-bubble--white o-speech-bubble--hidden js-demo-bubble--2 animated" data-size="big">
                 <p>Would you like a demo?</p>
               </div>
             </div>
@@ -612,7 +612,7 @@ $detect = new Mobile_Detect;
 
 
           <div class="o-speech-bubble-grouping">
-            <div class="o-speech-bubble-container o-speech-bubble-container--constrained">
+            <div class="o-speech-bubble-container o-speech-bubble-container--yes-no o-speech-bubble-container--constrained">
 
               <a href="mailto:Support@kencorhealth.com" class="o-speech-bubble o-speech-bubble--small o-speech-bubble--btn o-speech-bubble--right o-speech-bubble--blue o-speech-bubble--hidden js-response-bubble animated" data-size="big">
                 <p>Yes, please</p>

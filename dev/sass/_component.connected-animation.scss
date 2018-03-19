@@ -1,0 +1,74 @@
+.c-connected-animation-container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.c-connected-animation-container__placeholder {
+  opacity: 0;
+  display: none;
+}
+
+.c-connected-animation__phone,
+.c-connected-animation__people {
+  width: 29%;
+  position: absolute;
+  top: 10%;
+  opacity: 0;
+  z-index: 10;
+
+  &.show-me {
+    opacity: 1;
+  }
+}
+
+.c-connected-animation__phone {
+  top: -26%;
+  left:0;
+  right: 0;
+  margin: auto;
+}
+
+
+.c-connected-animation__people {
+  top: 80%;
+
+  &--1 {
+    left: -13.5%;
+  }
+
+  &--2 {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  &--3 {
+    right: -13.5%;
+  }
+}
+
+
+.c-connected-animation__lines{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+
+
+.MzAuhgfe_0{stroke-dasharray:141 143;stroke-dashoffset:142;}
+.start .MzAuhgfe_0{animation:MzAuhgfe_draw 465ms linear 0ms forwards;}
+
+.MzAuhgfe_1{stroke-dasharray:180 182;stroke-dashoffset:181;}
+.start .MzAuhgfe_1{animation:MzAuhgfe_draw 593ms linear 465ms forwards;}
+
+.MzAuhgfe_2{stroke-dasharray:34 36;stroke-dashoffset:35;}
+.start .MzAuhgfe_2{animation:MzAuhgfe_draw 114ms linear 1059ms forwards;}
+
+.MzAuhgfe_3{stroke-dasharray:35 37;stroke-dashoffset:36;}
+.start .MzAuhgfe_3{animation:MzAuhgfe_draw 118ms linear 1173ms forwards;}
+
+.MzAuhgfe_4{stroke-dasharray:180 182;stroke-dashoffset:181;}
+.start .MzAuhgfe_4{animation:MzAuhgfe_draw 593ms linear 1291ms forwards;}
+
+.MzAuhgfe_5{stroke-dasharray:34 36;stroke-dashoffset:35;}
+.start .MzAuhgfe_5{animation:MzAuhgfe_draw 114ms linear 1885ms forwards;}
+
+@keyframes MzAuhgfe_draw{100%{stroke-dashoffset:0;}}
+
+@keyframes MzAuhgfe_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}
